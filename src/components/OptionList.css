@@ -1,0 +1,18 @@
+.OptionList {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 20px;
+    width: 100%;
+}
+
+.OptionList label {
+    font-weight: bold;
+}
+
+.OptionList select {
+    border: none;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.116);
+    padding: 25px;
+}
+

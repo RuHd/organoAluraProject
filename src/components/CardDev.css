@@ -1,0 +1,45 @@
+.CardDev {
+    font-family: 'Inter', 'sans-serif';
+    position: relative;
+    width: 262px;
+    height: 272px;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.048);
+}
+
+.CardDev span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 90px;
+    width: 100%;
+    display: inline-block;
+}
+
+.CardDev h3 {
+    color:rgb(98, 120, 247) ;
+}
+
+.CardDev section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.CardDev section img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.DevInfo h3 {
+    text-align: center;
+}
+

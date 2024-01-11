@@ -1,0 +1,28 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+h1 {
+    position: relative;
+    color: #6278f7;
+    margin-bottom: 50px;
+
+}
+
+h1::after {
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 70px;
+    left: 40%;
+    bottom: -20px;
+    background-color: #6278f7;
+}
+
+.time-section {
+    width: 100%;
+}
